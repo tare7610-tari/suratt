@@ -1,0 +1,116 @@
+.welcome {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('wd1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.welcome-box h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.btn-buka {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #c59d5f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f1e3;
+  color: #333;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #b33939;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.cover {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('wdg.webp') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover h1, .cover h2 {
+  color: white;
+}
+
+.box {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+.gallery img {
+  width: 70%;
+  margin: 20px;
+}
+
+.btn-lokasi {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #c59d5f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-lokasi:hover {
+  background-color: #a67c3a;
+}
+
+
+footer {
+  background: #b33939;
+  color: white;
+  padding: 20px;
+}
+
+.btn-music {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #c59d5f;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}

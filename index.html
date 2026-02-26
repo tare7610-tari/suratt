@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Undangan Pernikahan</title>
+</head>
+<body>
+
+  <audio id="bg-music" loop>
+  <source src="nikah.mp3" type="audio/mpeg">
+  Browser Anda tidak mendukung audio.
+</audio>
+
+  
+
+
+<section class="cover" id="cover">
+  
+  <div class="welcome-box">
+    <h1>Selamat Datang</h1>
+    
+
+  <h1>Undangan Pernikahan</h1>
+  <h2>Krisjiana Baharuddin & Siti Badriah</h2>
+  <p>Sabtu, 20 Februari 2026</p>
+</section>
+
+<section class="mempelai">
+  <h2>Mempelai</h2>
+
+  <div class="mempelai-wrapper">
+    <div class="mempelai-box">
+      <img src="suami.webp" alt="Krisjiana Baharuddin">
+      <h3>Krisjiana Baharuddin</h3>
+      <p>Putra dari<br>Bpk. Ahmad & Ibu Sari</p>
+    </div>
+
+    <div class="mempelai-box">
+      <img src="sit.webp" alt="Siti Badriah">
+      <h3>Siti Badriah</h3>
+      <p>Putri dari<br>Bpk. Muhammad Husni & Ibu Siti Amanah</p>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="box">
+    <h2>Galeri Foto</h2>
+    <div class="gallery">
+      <img src="wd3.jpg">
+      <img src="wd4.jpg">
+      <img src="wd5.jpg">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="box">
+    <h2>Detail Acara</h2>
+    <p> 
+        Dengan memohon rahmat dan ridho Allah SWT,kami bermaksud menyelenggarakan Acara<br>
+        Pernikahan putra putri kami.Oleh karena itu,kami menggundang bapak/ibu/saudara/i untuk<br>
+        hadir dan memberikan doa restu pada acara pernikahan acara kami 
+        </p>
+<p>
+  📅 Sabtu, 20 Februari 2026<br>
+  ⏰ 09.00 WIB – Selesai<br>
+  📍 Gedung Serbaguna Bahagia
+</p>
+
+<a 
+  href="https://maps.app.goo.gl/xKj96Bo9FE3KmTuU6" 
+  target="_blank" 
+  class="btn-lokasi">
+  📍 Lihat Lokasi di Google Maps
+</a>
+
+<button onclick="toggleMusic()" class="btn-music">🎵</button>
+
+<script>
+  function toggleMusic() {
+    const music = document.getElementById("bg-music");
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  }
+</script>
